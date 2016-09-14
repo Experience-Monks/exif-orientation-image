@@ -1,0 +1,38 @@
+{
+  "name": "exif-orientation-image",
+  "version": "1.0.0",
+  "description": "Properly displays an image via canvas based on the exif orientation data. To be used with  a file object",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Nick Poisson",
+    "email": "nick@jam3.com",
+    "url": "https://github.com/njam3"
+  },
+  "dependencies": {
+    "exif-orientation": "^1.0.0"
+  },
+  "devDependencies": {
+    "tape": "*"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "exif,",
+    "orientation,",
+    "canvas,",
+    "translate,",
+    "rotate,",
+    "scale,",
+    "file"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jam3/exif-orientation-image.git"
+  },
+  "homepage": "https://github.com/Jam3/exif-orientation-image",
+  "bugs": {
+    "url": "https://github.com/Jam3/exif-orientation-image/issues"
+  }
+}
