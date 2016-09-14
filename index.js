@@ -44,7 +44,7 @@ function translate(image,orientation,opts) {
 
 function loadImage(src,cb) {
   var img = new Image();
-  img.onload = function() { cb(image); };
+  img.onload = function() { cb(img); };
   img.onerror = function() { cb(); };
   img.src = src;
 }
