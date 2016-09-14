@@ -1,6 +1,6 @@
 {
   "name": "exif-orientation-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Properly displays an image via canvas based on the exif orientation data. To be used with  a file object",
   "main": "index.js",
   "license": "MIT",
