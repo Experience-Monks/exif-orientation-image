@@ -40,7 +40,11 @@ fileUpload.addEventListener('change',function(e) {
 
 ```image``` A loaded html image element  
 ```orientation``` Orientation object returned from [exif-orientation](https://www.npmjs.com/package/exif-orientation). Contains scale.x, scale.y, and rotation. Rotation is a number in degrees, scale.x and scale.y are numbers.  
-```options``` Custom options, right now the only options are `width` and `height` which determines the size of the returned canvas. It will use the image dimensions if not provided.  
+```options``` Custom options, right now the only options are `width` and `height` which determines the size of the returned canvas. It will use the image dimensions if not provided. 
+
+#### `orientation.orientation()`  
+
+Exposes the [exif-orientation](https://www.npmjs.com/package/exif-orientation) function in case you want to handle that manually.
 
 ## License
 

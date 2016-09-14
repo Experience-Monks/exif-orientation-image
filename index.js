@@ -50,4 +50,5 @@ function loadImage(src,cb) {
 }
 
 module.exports = load;
+module.exports.orientation = findOrientation;
 module.exports.translate = translate;
